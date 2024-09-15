@@ -1,0 +1,91 @@
+header{
+  .hamburguesa{
+    display: none;
+  }
+  .menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    min-height: unset;
+    width: 100%;
+    height: 10rem;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.927);
+    .link-item{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--Pine-green);
+      padding:.5rem 1rem;
+      border-radius:3rem;
+      height: 4.6rem;
+      width: 15rem;
+      .a-item{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        .icon-link{
+          width: 3.3rem;
+          height: 3.3rem;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        .icon-link-home{
+          background-image: url(../assets/icons/icon-home.svg);
+        }
+        .icon-link-contact{
+          background-image: url(../assets/icons/icon-contact.svg);
+
+        }
+        .icon-link-service{
+          background-image: url(../assets/icons/icon-service.svg);
+        }
+        .icon-link-info{
+          background-image: url(../assets/icons/icon-info.svg);
+        }
+      }
+
+      &:nth-child(1),&:nth-child(2),&:nth-child(3){
+        margin-left: 1rem;
+      }
+      &:nth-child(1),&:nth-child(3){
+        padding:1.5rem 1.3rem; 
+        background-color: var(--White);
+      }
+      &:nth-child(2){
+        background-color: var(--Pine-green);
+        .a-item-text{
+          color: var(--White);
+        }
+      }
+    }
+    .link-item-end{
+      position: absolute;
+      right: 1rem;
+      width: 15.87rem;
+      height: 4.6rem;
+      border: 1px solid var(--Pine-green);
+      padding:0 1rem;
+      border-radius:3rem;
+      background-color: var();
+      .a-item-end{
+        padding: 0;
+        .a-item-text-end{
+          font-weight: 400;
+        }
+        .icon-link-end{
+          width: 3.3rem;
+          height: 3.3rem;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-image: url(../assets/icons/icon-info.svg);
+        }
+      }
+    }
+  }
+}

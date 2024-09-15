@@ -1,0 +1,32 @@
+ .box-hero{
+       .container-hero{
+         padding: 0;
+         padding-top: 8rem;
+         .container-carousel{
+            .carousel{
+              height: 40rem;
+            }
+            .box-text-carousel{
+              top: 36rem;
+              width: 28rem;
+              height: 15rem;
+              .box-text-carousel-title{
+                font-size: 2rem;
+              }
+              .box-text-carousel-subtitle{
+                font-size: 1.8rem;
+              }
+            }
+            .carousel-control{
+              width: 3.9rem;
+              height: 3.9rem;
+            }
+            .prev{
+              left: -5rem;
+            }
+            .next{
+              right: -5rem;
+            }
+          }
+       }
+}

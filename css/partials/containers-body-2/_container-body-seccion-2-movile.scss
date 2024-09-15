@@ -1,0 +1,49 @@
+.container-body-seccion-2{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 2.5rem 2rem;
+    .container-body-seccion-2-imgs{
+      & >*:nth-child(1){
+        display: none;
+      }
+      & >*:nth-child(2){
+        width: 100%;
+        height: auto;
+        border-radius: 4rem;
+      }
+    }
+    .card-info-seccion-2{
+      background-color: var(--Golden-sand);
+      padding: 2.5rem 2.3rem;
+      border-radius: 2.5rem;
+      margin-top: 2.9rem;
+      & >*:nth-child(1){
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+      }
+
+
+      & >*:nth-child(3){
+        margin-top: 1.3rem;
+        li{
+          display: flex;
+          span{
+            padding-right: .6rem;
+          }
+        }
+      }
+      
+      & >*:nth-child(1), & >*:nth-child(2){
+        margin-top: 1rem;   
+      }
+      & >*:nth-child(1),& >*:nth-child(2), & >*:nth-child(3){
+        font-family: var(--Font-Karla);
+        color: var(--White);
+      }
+      & >*:nth-child(2), & >*:nth-child(3){
+        font-size: 1.8rem;
+      }
+    }
+  }

@@ -1,0 +1,44 @@
+.container-body-seccion-2{
+          position: relative;
+          flex-direction: row;
+          column-gap: 3.3rem;
+          justify-content: center;
+          padding-bottom: 0;
+          margin-top: 8.5rem;
+          height: 95rem;
+          .container-body-seccion-2-imgs{
+          & >*:nth-child(1){ 
+            position: relative;
+            display: flex;
+            width: 48rem;
+            height: 54.4rem;
+          }
+          & >*:nth-child(2){
+            margin-top: 3.8rem;
+            border-radius: 5.5rem;
+          }
+        }
+        .card-info-seccion-2{
+          max-width: 84.3rem;
+          height: 71.8rem;
+          align-self: flex-end;
+          & >*:nth-child(1){
+            display: none;
+          }
+          & >*:nth-child(2), & >*:nth-child(3){
+            font-size: 3rem;
+          }
+        }
+        &::before{
+          position: absolute;
+          top:6.5rem;
+          right:calc(10% + 3%);
+          content: "¿Por qué caballos?";
+          font-size: 9rem;
+          font-family: var(--Font-Karla);
+          padding: 3rem;
+          border-radius: 3rem;
+          z-index: 1;
+          background-color: var(--White);
+        }
+      }

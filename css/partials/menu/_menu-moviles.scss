@@ -1,0 +1,78 @@
+header{
+    position: fixed;
+    width: 100%;
+    padding: 3.5rem;
+    z-index: 1000;
+    .hamburguesa{
+      cursor: pointer;
+      z-index: 1000;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 3.4rem;
+      width: 3.3rem;
+      height: 3.3rem;
+      background-image: url(/assets/icons/icon-hamburguesa.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      transition: 0.5s ease-in-out;
+    }
+    .close{
+        background-image: url(/assets/icons/icon-close.svg);
+    }
+    .menu{
+      transition: background-color 0.3s ease, transform 0.3s ease-in-out;
+      display: none;
+      z-index: 1000;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: hsla(0, 3%, 94%, 0.83);
+      flex-direction: column;
+      row-gap: 1.9rem;
+      padding: 4rem 2.3rem;
+      min-height: 100vh;
+      .link-item{
+        list-style: none;
+        text-align: center;
+        .a-item{
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 2rem;
+          font-family: var(--Font-Karla);
+          .a-item-text{
+            font-weight: 400;
+            color: var(--Pine-green);
+          }
+        }
+      
+        &:hover {
+          .a-item {
+            color: var(--Pine-green);
+          }
+        }
+      } 
+      .link-item-end{
+        list-style: none; 
+        border: 2px solid var(--Pine-green);
+        padding: 1rem 8rem;
+        .a-item-end{
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          font-weight: 700;
+          font-size: 2rem;
+           font-family: var(--Font-Karla);
+          color: var(--Pine-green);
+        }
+      }
+    }
+    .display-menu{
+      display: flex;
+    }
+  }

@@ -1,0 +1,94 @@
+.container-body-seccion-1{
+    margin-top: 4.5rem;
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    row-gap: 4rem;
+    
+    .container-body-seccion-servicios{
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+      .box-1-seccion-servicios{
+        position: relative;
+        min-width: 30rem;
+        max-width: 59.6rem;
+        max-height: 66.2rem;
+        &::before{
+          position: absolute;
+          left: 3rem;
+          top: 1rem;
+          content: "SERVICIOS";
+          font-size: clamp(3rem, 9vw, 4rem);
+          font-family: var(--Font-Karla);
+        }
+        .title-seccion-servicio{
+          display: none;
+        }
+        & >*:nth-child(2){
+          width: 100%;
+          height: auto;
+        }
+
+      }
+      .box-2-seccion-servicios{
+        .container-box-2-imgs-seccion-servicios{
+          display: flex;
+          justify-content: space-between;
+          column-gap: 3%;
+          & >*:nth-child(1){
+            width: 40%;
+          }
+          & >*:nth-child(2){
+            width: 60%
+          }
+          .box-img-seccion-servicios{
+            position: relative;
+            height: 12rem;
+            overflow: hidden;
+            border-radius: 2rem;
+            img{
+              position: absolute;
+              object-fit: cover;
+              width: 100%;
+              height: 100%;
+            }
+          }
+         
+        }
+
+      }
+      
+      .card-seccion-servicios{
+        background-color: var(--Golden-sand);
+        margin-top: 2.5rem;
+        border-radius: 2.3rem;
+        padding: 3rem 4.5rem;
+        max-width: 58.6rem;
+        p{
+          font-weight: 600;
+          color: var(--White);
+          font-size: 1.8rem;
+          font-family: var(--Font-Karla);
+        }
+        ul{
+          margin-top: .5rem;
+          padding-left: 1.5rem;
+          li{
+            color: var(--White);
+            font-size: 1.8rem;
+            font-family: var(--Font-Karla);
+          }
+        }        
+
+      }
+      .button-seccion-servicio{
+            margin-top: 5.3rem;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+      }
+    }
+  }

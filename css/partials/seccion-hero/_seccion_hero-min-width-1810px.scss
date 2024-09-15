@@ -1,0 +1,23 @@
+.box-hero{
+      .container-hero{
+        .container-carousel{
+          .carousel{
+            max-width: 139rem;  
+            height: 59rem;  
+            .carousel-inner{
+              .carousel-item{
+                img{
+                  height: 59rem;
+                }
+              }
+            }
+          }
+          .box-text-carousel{
+            top: 54.4rem;
+          }
+        }
+      }
+      .container-ubicacion{
+        top: 41rem;
+      }
+    }

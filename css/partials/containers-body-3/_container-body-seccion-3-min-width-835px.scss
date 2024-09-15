@@ -1,0 +1,49 @@
+.container-body-seccion-3{
+      position: relative;
+      flex-direction: row;
+      column-gap: 10vw;
+      margin-top: 6.5rem;
+      &::before{
+        position: absolute;
+        top: 0;
+        left: 2rem;
+        content: "";
+        background-image: url(../assets/icons/icon-star.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 2.6rem;
+        height: 2.6rem;
+
+      }
+      &::after{
+        position: absolute;
+        top: 3.3rem;
+        left: 2rem;
+        content: "Poderoso y benéfico";
+        font-size: 2rem;
+        font-family: var(--Font-Karla);
+      }
+      .container-text-contacto{
+        margin-top: 0;
+        & >*:nth-child(1),& >*:nth-child(2){
+          text-align: left;
+        }
+      
+        & >*:nth-child(3){
+          margin-top: 6rem;
+          display: flex;
+          background-image: url(../assets/icons/logo.svg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:7.3rem;
+          width: 9.5rem;
+          height:9.5rem;
+          background-color: var(--Pine-green);
+          border-radius: 50%;
+        }
+      }
+      .container-form-contact{
+        margin-top: 0;
+      }
+    }

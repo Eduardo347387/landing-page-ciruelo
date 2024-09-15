@@ -1,0 +1,32 @@
+.box-hero{
+      .container-hero{
+        .container-carousel{
+          .carousel{
+            max-width: 133rem;  
+            height: 56rem;  
+            .carousel-inner{
+              .carousel-item{
+                img{
+                  height: 56rem;
+                }
+              }
+            }
+          }
+          .box-text-carousel{
+            top: 51rem;
+          }
+           &::before{
+            right: unset;
+            bottom:2rem;
+            left:-28rem;
+          }
+          &::after{
+            left: -28.3rem;
+            bottom: -1rem;
+          }
+        }
+      }
+      .container-ubicacion{
+        top: 39rem;
+      }
+    }

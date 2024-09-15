@@ -1,0 +1,66 @@
+.container-body-seccion-3{
+        padding-left: 19.2rem;
+        column-gap: 3.5rem;
+        .container-text-contacto{
+          & >*:nth-child(1){
+            font-size:6rem;
+  }
+          & >*:nth-child(2){
+            font-size: 2.5rem;
+          }
+        }
+        .container-form-contact{
+          background-image: url(../assets/images/background-card-contacto-desktop.svg);
+          width: 86.1rem;
+          height: 54.8rem;
+
+          background-size: contain;
+          & >*:nth-child(1){
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+            grid-template-rows: repeat(5,6.3rem);
+            margin-top: 5rem;
+            row-gap: 1.2rem;
+            .box-text-input-contact{
+              height: 6.2rem;
+              .input-contacto{
+                height: 100%;
+                font-size: 1.5rem;
+              }
+            }
+            & >*:nth-child(1){
+              grid-column: 1 / 5;
+              grid-row: 1;
+              margin-right: 1.2rem;
+            }
+            & >*:nth-child(2){
+              grid-column: 5 / -1;
+              grid-row: 1;
+            }
+            & >*:nth-child(3){
+              grid-row: 2;
+              grid-column: 1 / -1;
+            }
+            & >*:nth-child(4){
+              grid-row: 3;
+              grid-column: 1 / 4;
+              margin-right: 1.2rem;
+            }
+            & >*:nth-child(5){
+              grid-row: 3;
+              grid-column: 4 /-1;
+            }
+            & >*:nth-child(6){
+              grid-row: 4;
+              grid-column: 1 / -1;
+            font-size: 1.6rem;
+            }
+            & >*:nth-child(7){
+              margin-top: 6rem;
+              grid-row: 5;
+              grid-column: 1 / -1;
+            }
+
+          }
+        }
+      }

@@ -1,0 +1,122 @@
+.box-hero{
+  .container-hero{
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 8rem 1.6rem 1rem 1.6rem;
+      width: max-content;
+      .box-title-hero{
+        font-family: var(--Font-Karla);
+        .title-hero-1{
+          font-size: 2.5rem;
+          font-weight: 700;
+          background-color: var(--Golden-sand);
+          padding: 0 1rem;
+          border-radius: 1rem;
+          width: max-content;
+        }
+        .title-hero-2{
+          font-size: 1.6rem;
+          font-weight: 400;
+        }
+      }
+      .container-carousel{
+        margin-top: 2.7rem;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: min-content;
+        .carousel{
+          position: relative;
+          width: 84vw;
+          max-width: 100.8rem;
+          height:27rem;
+          margin: auto;
+          overflow: hidden;
+          border-radius: 4.5rem;
+          .carousel-inner{
+              display: flex;
+              transition: transform 0.5s ease-in-out;
+              .carousel-item{
+                  min-width: 100%;
+                  box-sizing: border-box;
+                  img{
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;   
+                  }
+              }
+          }
+        }
+        .box-text-carousel{
+          position: absolute;
+          background-color: white;
+          border-radius: 30px;
+          padding: 2.3rem 2rem;
+          width: 21.3rem;
+          height: 11.2rem;
+          top: 23rem;
+          left: 50%;
+          transform: translateX(-50%);
+          text-align: center;
+          font-family: var(--Font-Karla);
+          .box-text-carousel-title{
+            font-size: 1.4rem;
+            font-weight: 600;
+            border: 1px;
+            margin-bottom: .2rem;
+          }
+          .box-text-carousel-subtitle{
+            font-size: 1.2rem;
+            font-weight: 500;
+          }
+        }
+        .carousel-control{
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          border: none;
+          cursor: pointer;
+          z-index: 1;
+          width: 2.6rem;
+          height: 2.6rem;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-color: transparent;
+        }
+        .prev {
+          background-image: url(/assets/icons/chevron-left.svg);
+          left: -3rem;
+        }
+        
+        .next {
+          background-image: url(/assets/icons/chevron-rigth.svg);
+          right: -3rem;
+        }
+        &::before{
+          position: absolute;
+          bottom: -6rem;
+          right: 0;
+          content: "";
+          width: 3rem;
+          height: 3rem;
+          background-image: url(/assets/icons/icon-star.svg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+      }
+    .button-hero{
+      position: absolute;
+      margin-top: 8.9rem;
+      left: 50%;
+      transform: translateX(-50%);  
+    }  
+    
+  }
+
+  .container-ubicacion{
+      display: none;
+  }
+}

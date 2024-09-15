@@ -1,0 +1,24 @@
+header{
+  .menu{
+    .link-item{
+      &:nth-child(1),&:nth-child(2),&:nth-child(3){
+        margin-left: 1.5rem;
+      }
+    }
+    .link-item-end{
+      right: 5.5rem;
+      width: 22.87rem;
+      .a-item-text-end,.icon-link-end{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      .a-item-text-end{
+        left: 2rem;
+      }
+      .icon-link-end{
+        right: 1.2rem;
+      }
+    }
+  }
+}

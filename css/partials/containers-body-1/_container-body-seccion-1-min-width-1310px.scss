@@ -1,0 +1,109 @@
+.container-body-seccion-1{
+        padding: 0;
+        .container-body-seccion-servicios{
+          margin-top: 7rem;
+          padding-left: 14.5%;
+          position: relative;
+          justify-content: center;
+          flex-direction: row;
+          column-gap: 3rem;
+          row-gap: 0;
+          width: 100%;
+          height: auto;
+
+          .container-decorate-line-top-seccion-servicio{
+              display: flex;
+              column-gap: 3rem;
+              justify-content: space-around;
+              position: absolute;
+              top: -1rem;
+              right: 2rem;
+              width: 40%;
+              .decorate-line-top-seccion-servicios{
+                width: 25%;
+                height: .1rem;
+                background-color: black;
+              
+              } 
+          }
+          
+          .logo-seccion-servicios{
+            position: absolute;
+            top: 3rem;
+            left: 3rem;
+            width: 9.5rem;
+            height: 9.5rem;
+            background-color: var(--Pine-green);
+            border-radius: 50%;
+            background-image: url(../assets/icons/logo.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 6.8rem;
+          }
+          .box-1-seccion-servicios{
+            min-width: unset;
+            max-width: unset;
+            max-height: unset;
+            width: 59.6rem;
+            height: 64rem;
+            &::before{
+              display: none;
+            }
+            .title-seccion-servicio{
+              text-align: center;
+              position: absolute;
+              font-family: var(--Font-Karla);
+              font-size: 4rem;
+              width: 23.9rem;
+              left: 6rem;
+              display: flex;
+            }
+          }
+          .box-2-seccion-servicios{
+            position: relative;
+            max-width: 58.6rem;
+            height: 100%;
+          
+            .ocultar-imgs-seccion-servicios{
+              display: none;
+            }
+            .card-seccion-servicios{
+              margin-top: 3rem;
+              p{
+                display: none;
+              }
+              ul{
+                margin-top: .5rem;
+                padding-left: 1.5rem;
+                li{
+                  
+                  font-size: 3rem;
+                  font-family: var(--Font-Karla);
+                }
+              } 
+            }
+            .button-seccion-servicio{
+              margin-top: 4rem;
+            }
+          }
+        } 
+        & >*:nth-child(2){
+          margin-top: 5rem;
+          .box-2-seccion-servicios{
+            align-self: flex-end;
+          }
+          
+        }
+        & >*:nth-child(4){
+          flex-direction: row-reverse;
+          padding-top: 3rem;
+        }
+        & >*:nth-child(6){
+          padding-top: 5rem;
+          .box-2-seccion-servicios{
+            .button-seccion-servicio{
+              margin-top: 14rem;
+            }
+          }
+        }
+      }

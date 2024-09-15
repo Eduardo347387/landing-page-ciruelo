@@ -1,0 +1,112 @@
+ .box-hero{
+      position: relative;
+      padding-right: 4rem;
+      display: flex;
+      .container-hero{
+        position: absolute;
+        right: 3rem;
+        left: unset;
+        transform: unset;
+        padding-top: 10.8rem;
+        .box-title-hero{
+          .title-hero-1,.title-hero-2{
+            font-size: 5.5rem;
+          }
+        }
+        .container-carousel{
+          left: unset;
+          transform: unset;
+          .carousel{
+            height: 40rem;
+            border-radius: 8rem;
+            .carousel-inner{
+              .carousel-item{
+                img{
+                  min-width: 100.8rem;
+                  height: 40rem;
+                }
+              }
+            }
+          }
+          .box-text-carousel{
+            top: 35rem;
+            transform: translateX(-35rem);
+          }
+          &::before{
+            right: unset;
+            bottom: -9.5rem;
+            left:-25rem;
+          }
+          &::after{
+            position: absolute;
+            /* left:-33.2rem;
+            bottom: -5.3rem; */
+            left:-25rem;
+            bottom: -12.3rem;
+            content: "Poderoso y benéfico";
+            font-size: 2rem;
+            font-family: var(--Font-Karla);
+          }
+        }
+        .button-hero{
+          margin-top: 6.5rem;
+          left: unset;
+          right: 0rem;
+          transform: translateX(unset);
+        }  
+      }
+      .container-ubicacion{
+        z-index: 1000;
+        padding: 3.2rem 6rem 3rem 1.8rem;
+        top: 35rem;
+        position: fixed;
+        display: block;
+        width: 19.2rem;
+        height: 34.9rem;
+        border-top-right-radius: 8.5rem;
+        border-bottom-right-radius: 8.5rem;
+        background-color: var(--Golden-sand);
+        .container-img-ubicacion{
+          display: flex;
+          width:13.4rem;
+          position: relative;
+          .img-ubicacion-1,.img-ubicacion-2{
+            position: absolute;
+            width: 7.4rem;
+            height: 7.4rem;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .img-ubicacion-1{
+            background-image: url(../assets/images/img-ubicacion-2.svg);
+          }
+          
+          .img-ubicacion-2{
+            right: 0rem;
+            background-image: url(../assets/images/img-ubicacion-1.svg);
+          }
+        }
+        .container-text-ubicacion{
+          margin-top: 10rem;
+          & >*:nth-child(1),& >*:nth-child(2){
+            font-family: var(--Font-Karla);
+            color: var(--White);
+          }
+          & >*:nth-child(1){
+            font-size: 2.5rem;
+            font-weight: 600;
+          }
+          & >*:nth-child(2){
+            margin-top: 1rem;
+            font-size: 1.5rem;
+          }
+          & >*:nth-child(3){
+            margin-top: 1rem;
+            width: 7rem;
+            height: 7rem;
+          }
+        }
+        
+      }
+      }
