@@ -492,15 +492,15 @@ html {
 .container .container-body-seccion-3 .container-form-contact {
   margin-top: 2.6rem;
   background-image: url(../assets/images/background-cart-contacto-movile.svg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   padding: 5rem 2rem 1rem 2rem;
-  height: 45.4rem;
+  height: 57rem;
   width: 38.4rem;
 }
 .container .container-body-seccion-3 .container-form-contact > *:nth-child(1) {
-  margin-top: 2.5rem;
+  margin-top: 6rem;
   display: flex;
   flex-direction: column;
   row-gap: 0.7rem;
@@ -510,8 +510,8 @@ html {
   padding-left: 2.7rem;
   padding-right: 1rem;
   border: 1px solid var(--White);
-  border-radius: 0.9rem;
-  height: 2.8rem;
+  border-radius: 1.2rem;
+  height: 3.4rem;
 }
 .container .container-body-seccion-3 .container-form-contact > *:nth-child(1) .box-text-input-contact .input-contacto {
   cursor: pointer;
@@ -521,7 +521,8 @@ html {
   outline: none;
   background-color: transparent;
   color: var(--White);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  font-family: var(--Font-Karla);
 }
 .container .container-body-seccion-3 .container-form-contact > *:nth-child(1) .box-text-input-contact .input-contacto::-webkit-input-placeholder {
   color: var(--White);
@@ -531,9 +532,13 @@ html {
 }
 .container .container-body-seccion-3 .container-form-contact > *:nth-child(1) #id_mensaje::-webkit-input-placeholder {
   color: var(--White);
+  font-family: var(--Font-Karla);
+  font-size: 1.2rem;
 }
-.container .container-body-seccion-3 .container-form-contact > *:nth-child(1) #id_mensaje textarea::-moz-placeholder {
+.container .container-body-seccion-3 .container-form-contact > *:nth-child(1) #id_mensaje::-moz-placeholder {
   color: var(--White);
+  font-family: var(--Font-Karla);
+  font-size: 1.2rem;
 }
 .container .container-body-seccion-3 .container-form-contact > *:nth-child(1) .button-enviar {
   cursor: pointer;
@@ -1161,6 +1166,12 @@ html {
   }
   .container .container-body-seccion-3 .container-form-contact > *:nth-child(1) .box-text-input-contact .input-contacto {
     height: 100%;
+    font-size: 1.5rem;
+  }
+  .container .container-body-seccion-3 .container-form-contact > *:nth-child(1) #id_mensaje::-webkit-input-placeholder {
+    font-size: 1.5rem;
+  }
+  .container .container-body-seccion-3 .container-form-contact > *:nth-child(1) #id_mensaje::-moz-placeholder {
     font-size: 1.5rem;
   }
   .container .container-body-seccion-3 .container-form-contact > *:nth-child(1) > *:nth-child(1) {

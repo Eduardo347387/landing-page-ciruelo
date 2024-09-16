@@ -28,6 +28,14 @@
                 font-size: 1.5rem;
               }
             }
+             #id_mensaje{
+              &::-webkit-input-placeholder {
+                font-size: 1.5rem;
+              }
+              &::-moz-placeholder {
+                font-size: 1.5rem;
+              }
+            }
             & >*:nth-child(1){
               grid-column: 1 / 5;
               grid-row: 1;
