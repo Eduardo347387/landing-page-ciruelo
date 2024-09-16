@@ -1,16 +1,16 @@
 .container-body-seccion-1{
         padding: 0;
+        row-gap: 4rem;
         .container-body-seccion-servicios{
           margin-top: 7rem;
           padding-left: 14.5%;
           position: relative;
           justify-content: center;
-          flex-direction: row;
-          column-gap: 3rem;
+          column-gap: 1rem;
           row-gap: 0;
           width: 100%;
           height: auto;
-
+          column-gap: 4rem;
           .container-decorate-line-top-seccion-servicio{
               display: flex;
               column-gap: 3rem;
@@ -75,8 +75,7 @@
               ul{
                 margin-top: .5rem;
                 padding-left: 1.5rem;
-                li{
-                  
+                li{ 
                   font-size: 3rem;
                   font-family: var(--Font-Karla);
                 }
