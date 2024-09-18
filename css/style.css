@@ -677,6 +677,9 @@ html {
   }
 }
 @media (min-width: 835px) {
+  html {
+    scroll-padding-top: 14.6rem;
+  }
   .number-seccion {
     display: none;
   }
@@ -748,6 +751,7 @@ html {
     color: var(--White);
   }
   .container header .menu .link-item-end {
+    background-color: var(--White);
     position: absolute;
     right: 1rem;
     width: 15.87rem;

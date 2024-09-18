@@ -134,6 +134,9 @@ html {
 }
 
 @media(min-width:835px){
+  html{
+     scroll-padding-top:14.6rem;
+  }
   .number-seccion{
     display: none;
   }
