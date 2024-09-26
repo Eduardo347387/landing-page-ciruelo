@@ -1,34 +1,5 @@
 @charset "UTF-8";
-/* ___________________________________________________________________________________________________________________________________________________________________________________ */
-/* Font Karla */
-@font-face {
-  font-family: "Karla";
-  src: url("../assets/fonts/Karla/Karla-BoldItalic.woff2") format("woff2"), url("../assets/fonts/Karla/Karla-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Karla";
-  src: url("../assets/fonts/Karla/Karla-Regular.woff2") format("woff2"), url("../assets/fonts/Karla/Karla-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Karla";
-  src: url("../assets/fonts/Karla/Karla-Bold.woff2") format("woff2"), url("../assets/fonts/Karla/Karla-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Karla";
-  src: url("../assets/fonts/Karla/Karla-Italic.woff2") format("woff2"), url("../assets/fonts/Karla/Karla-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
 :root {
   --Pine-green: #1C3F3C;
   --Golden-sand: #BC9C61;
